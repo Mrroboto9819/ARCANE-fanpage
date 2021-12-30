@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+html {
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(29, 29, 29);
+  padding: 0rem 2rem;
+}
+
+.header-logo {
+  width: 8rem;
+  height: 8rem;
+  padding: 1rem;
+}
+
+.header-nav {
+  padding: 2rem;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav li {
+  list-style: none;
+}
+
+.header-nav-item {
+  padding: 1rem;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.header-nav-item:hover {
+  padding: 1rem;
+  background-color: rgba(240, 240, 240, 0.836);
+  border-radius: 10px;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+}
+
+/* Main */
+.section {
+  position: relative;
+  perspective: 8px;
+  perspective-origin: 50%;
+}
+.content-zaun {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/Zaun-02.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.content-piltover {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/piltover_splash.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#background-video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.badge {
+  width: 100%;
+  height: 100vh;
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 0rem;
+  background-color: rgba(0, 0, 0, 0.363);
+  color: #fff;
+  text-shadow: 0rem 0rem 5rem #fff;
+  z-index: 100;
+}
+.arcane-title {
+  width: 100px;
+  height: 100px;
+  margin-top: 350px;
+}
+.riot-logo {
+  margin-top: 20px;
+  width: 200px;
+}
+
+.section-jinx-img {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  perspective: 8px;
+  perspective-origin: 50%;
+  background-image: url(./img/arcane-jinx-splash-art-4k-nl-1920x1080.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.character-title_jinx {
+  position: absolute;
+  top: 15rem;
+  left: 5rem;
+  font-weight: bold;
+  text-shadow: 0rem 0rem 5rem #fff;
+  font-size: 10rem;
+  color: #fff;
+}
+
+.character-description_jinx {
+  width: 600px;
+  position: absolute;
+  top: 30rem;
+  left: 5rem;
+  font-weight: bold;
+  text-shadow: 0rem 0rem 5rem rgb(150, 150, 150);
+  font-size: 3rem;
+  text-align: justify;
+  color: #fff;
+}
+
+.character-jinx {
+  width: 200px;
+  position: absolute;
+  right: 5rem;
+  bottom: 5rem;
+}
+
+.section-jayce-img {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  perspective: 8px;
+  perspective-origin: 50%;
+  background-image: url(./img/jaycearc.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.character-title_jayce {
+  position: absolute;
+  top: 15rem;
+  left: 5rem;
+  font-weight: bold;
+  text-shadow: 0rem 0rem 5rem #fff;
+  font-size: 10rem;
+  color: #fff;
+}
+
+.character-description_jayce {
+  width: 600px;
+  position: absolute;
+  top: 30rem;
+  left: 5rem;
+  font-weight: bold;
+  text-shadow: 0rem 0rem 5rem rgb(150, 150, 150);
+  font-size: 3rem;
+  text-align: justify;
+  color: #fff;
+}
+
+.character-jayce {
+  width: 200px;
+  position: absolute;
+  right: 5rem;
+  bottom: 5rem;
+}
+.section-cai-img {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  perspective: 8px;
+  perspective-origin: 50%;
+  background-image: url(./img/caitlyn.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.character-title_cai {
+  position: absolute;
+  top: 15rem;
+  left: 5rem;
+  font-weight: bold;
+  text-shadow: 0rem 0rem 5rem #fff;
+  font-size: 10rem;
+  color: #fff;
+}
+
+.character-description_cai {
+  width: 600px;
+  position: absolute;
+  top: 30rem;
+  left: 5rem;
+  font-weight: bold;
+  text-shadow: 0rem 0rem 5rem rgb(150, 150, 150);
+  font-size: 3rem;
+  text-align: justify;
+  color: #fff;
+}
+
+.character-cai {
+  width: 200px;
+  position: absolute;
+  right: 5rem;
+  bottom: 5rem;
+}
+.section-vik-img {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  perspective: 8px;
+  perspective-origin: 50%;
+  background-image: url(./img/viktor.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.character-title_vik {
+  position: absolute;
+  top: 15rem;
+  left: 5rem;
+  font-weight: bold;
+  text-shadow: 0rem 0rem 5rem #fff;
+  font-size: 10rem;
+  color: #fff;
+}
+
+.character-description_vik {
+  width: 600px;
+  position: absolute;
+  top: 30rem;
+  left: 5rem;
+  font-weight: bold;
+  text-shadow: 0rem 0rem 5rem rgb(150, 150, 150);
+  font-size: 3rem;
+  text-align: justify;
+  color: #fff;
+}
+
+.character-vik {
+  width: 200px;
+  position: absolute;
+  right: 5rem;
+  bottom: 5rem;
+}
+
+.section-vi-img {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  transform: translateZ(0px) scale(1);
+  transform-origin: 0 50%;
+  background-image: url(./img/arcane-vi-lol-skin-8k--37.1_d.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.character-title_vi {
+  position: absolute;
+  top: 20rem;
+  right: 55rem;
+  font-weight: bold;
+  text-shadow: 0rem 0rem 5rem #fff;
+  font-size: 10rem;
+  color: #fff;
+}
+
+.character-description_vi {
+  width: 600px;
+  position: absolute;
+  top: 35rem;
+  right: 5rem;
+  font-weight: bold;
+  text-shadow: 0rem 0rem 5rem rgb(150, 150, 150);
+  font-size: 3rem;
+  text-align: justify;
+  color: #fff;
+}
+.section-ekko-img {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  transform: translateZ(0px) scale(1);
+  transform-origin: 0 50%;
+  background-image: url(./img/league-of-legends-firelight-ekko.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.character-title_ekko {
+  position: absolute;
+  top: 20rem;
+  right: 37rem;
+  font-weight: bold;
+  text-shadow: 0rem 0rem 5rem #fff;
+  font-size: 10rem;
+  color: #fff;
+}
+
+.character-description_ekko {
+  width: 600px;
+  position: absolute;
+  top: 35rem;
+  right: 5rem;
+  font-weight: bold;
+  text-shadow: 0rem 0rem 5rem rgb(150, 150, 150);
+  font-size: 3rem;
+  text-align: justify;
+  color: #fff;
+}
+
+.bkg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.342);
+}
+.Bienvenida {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding-top: 10rem;
+  text-shadow: 0rem 0rem 5rem rgb(150, 150, 150);
+}
+.zaun {
+  font-size: 5rem;
+  font-weight: 1000;
+  color: rgb(195, 255, 183);
+  text-align: center;
+  text-shadow: 0rem 0rem 2rem 0.1rem rgb(99, 148, 20);
+}
+.piltover {
+  font-size: 5rem;
+  font-weight: 1000;
+  color: rgb(255, 248, 183);
+  text-align: center;
+  text-shadow: 0rem 0rem 2rem 0.1rem rgb(148, 107, 20);
+}
+.description-place {
+  width: 100rem;
+  font-weight: 300;
+  text-align: justify;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  color: #fff;
+}
+.background-black {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.712);
+}
+.logo_zaun {
+  width: 18rem;
+  height: 20rem;
+  display: block;
+  margin: 2rem auto;
+}
+.logo_piltover {
+  width: 10rem;
+  height: 12rem;
+  display: block;
+  margin: 2rem auto;
+}
